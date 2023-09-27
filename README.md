@@ -1,5 +1,5 @@
 # Insomniacs Practical Round - Login and Registration API
-Login and Registration service with
+## Login and Registration service with following APIs
 * Registration API
 * Login API
 * Update password API
@@ -17,7 +17,7 @@ Login and Registration service with
 * Right click on the added project and select Run As -> Java Application
 * Open "http://localhost:8080/swagger-ui/index.html" to hit the apis
 
-##More Info
+## More Info
 * Server will be listening on port 8080
 * Endpoints
 	1. POST /register
@@ -66,4 +66,6 @@ Login and Registration service with
 		- User will be logged in using user_name and password initially if user_name and password are correct.
 		- Error with message "Incorrect password or user not found with email: inputemail" will be shown if the user_name or password is not valid.
 		- password will be updated with newpassword in user details successfully
+
+## Swagger UI
 <img src="./assests/swagger-ui.jpeg">
