@@ -57,7 +57,7 @@ public class UserResource {
 	}
 
 	// GET/users/email
-	@GetMapping("/updatePassword")
+	@PostMapping("/updatePassword")
 	public User updatePassword(@RequestBody LoginDetails loginDetails) {
 		User user = service.loginUser(loginDetails.getEmail(), loginDetails.getPassword());
 
