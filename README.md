@@ -1,4 +1,4 @@
-# Insomniacs Practical Round - Login and Registration API
+# Login and Registration REST API
 ## Login and Registration service with following APIs
 * Registration API
 * Login API
